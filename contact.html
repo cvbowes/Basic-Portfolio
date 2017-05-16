@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
 	<title>Contact - Caroline Bowes</title>
-<!-- 	<link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
 	<header>
-		<h2 class="name">Caroline Bowes</h2>
+		<h2 id="name">Caroline Bowes</h2>
 		<nav>
 			<ul>
 				<li><a class="headerLinks" href="index.html">About</a></li>
@@ -20,16 +20,17 @@
 	<div class="mainSection"> 
 		<h2 class="sectionTitle">Contact</h2>
 		<form action="mailto:someone@example.com" method="post" enctype="text/plain"> 
-		Name<br>
-		<input type="text" name="name" placeholder="John Smith"><br>
-		E-mail<br>
-		<input type="text" name="mail" placeholder="example@gmail.com"><br>
-		Message<br>
-		<input type="text" name="message" id="messageText"><br>
-		<input type="submit" value="Send">
+			Name<br>
+			<input type="text" name="name" placeholder="John Smith" class="textEntry"><br>
+			E-mail<br>
+			<input type="text" name="mail" placeholder="example@gmail.com" class="textEntry"><br>
+			Message<br>
+			<textarea name="Text1"  rows="5" id="messageEntry"></textarea><br>
+			<input type="submit" value="Submit" id="submit">
 		</form>
 
 	</div>
+
 	<div class="sidebar">
 		<h3>Connect with Me</h3>
 		<p>
@@ -43,7 +44,7 @@
 	</div>
 
 	<footer>
-		&copy;2016 Caroline Bowes
+		&copy;2017 Caroline Bowes
 	</footer>
 </body>
 </html>
